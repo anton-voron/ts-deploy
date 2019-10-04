@@ -1,47 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react'
 import ReactDOM from 'react-dom';
-import * as serviceWorker from './serviceWorker';
 
-import './style.sass'
-import { observable, action } from 'mobx'
-import { observer } from 'mobx-react'
+import App from './components/App/App'
+import ErrorBoundry from './components/ErrorBoundry/ErrorBoundry'
+import RegistrationAPI, { IRegistrationAPI } from './service/RegistrationAPI'
 
-class InputState {
-
-    @observable
-    value: number = 0
-    
-     @action
-     onChange = (): void => {
-         console.log(this.value)
-         this.value++
-    }
-}
-
-const props = new InputState()
+const service = new RegistrationAPI()
 
 
-interface Iprops {
-    InputState: InputState
-}
 
-
-@observer
-class App extends Component<Iprops> {
-
-    handleInc = (): void => {
-        this.props.InputState.onChange()
-    }
-    render(){
-        return<>
-            <h1 className="title">{this.props.InputState.value}</h1>
-            <button onClick={this.handleInc}>+1</button>
-        </>
-    }
-}
- ReactDOM.render(<App InputState={props}/>, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(
+    <ErrorBoundry>
+        <App />
+    </ErrorBoundry>,
+    document.getElementById('root'));
