@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ts-deploy/static/css/main.e5b7f742.chunk.css",
+    "main.js": "/ts-deploy/static/js/main.a5b03a0b.chunk.js",
+    "main.js.map": "/ts-deploy/static/js/main.a5b03a0b.chunk.js.map",
+    "runtime-main.js": "/ts-deploy/static/js/runtime-main.b90f754d.js",
+    "runtime-main.js.map": "/ts-deploy/static/js/runtime-main.b90f754d.js.map",
+    "static/js/2.3a568287.chunk.js": "/ts-deploy/static/js/2.3a568287.chunk.js",
+    "static/js/2.3a568287.chunk.js.map": "/ts-deploy/static/js/2.3a568287.chunk.js.map",
+    "index.html": "/ts-deploy/index.html",
+    "precache-manifest.5fb4c94587936cf1442ce98baead88f3.js": "/ts-deploy/precache-manifest.5fb4c94587936cf1442ce98baead88f3.js",
+    "service-worker.js": "/ts-deploy/service-worker.js",
+    "static/css/main.e5b7f742.chunk.css.map": "/ts-deploy/static/css/main.e5b7f742.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b90f754d.js",
+    "static/js/2.3a568287.chunk.js",
+    "static/css/main.e5b7f742.chunk.css",
+    "static/js/main.a5b03a0b.chunk.js"
+  ]
+}
