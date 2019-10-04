@@ -49,8 +49,9 @@ class Registration extends Component<Props> {
                                 placeholder="+38 ( __ ) ___ __ __" />
                             <div className="box">
                                 <Selector store={store} />
-                                <div>
-                                    <input type="file" placeholder="Upload your photo" className="upload-photo" />
+                                <div className="file-wrapper">
+                                    <input type="file" id="file" className="upload-photo" />
+                                    <label htmlFor="file">Upload your photo</label>
                                 </div>
                             </div>
                         </div>

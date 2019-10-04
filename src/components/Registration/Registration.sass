@@ -48,7 +48,21 @@
                     grid-row-end: 4
                     flex-direction: column
                 
+                .file-wrapper
+                    position: relative
+                    width: 40%
+                    +mobile
+                        width: 290px
+                
                 .upload-photo
+                    width: 0.1px
+                    height: 0.1px
+                    opacity: 0
+                    overflow: hidden
+                    position: absolute
+                    z-index: -1
+
+                .upload-photo + label
                     background-color: transparent
                     padding: 15px
                     font-family: $sourcesans
@@ -57,8 +71,35 @@
                     border-radius: 4px
                     color: #8d8c8c
                     width: 100%
+                    text-align: left
                     +mobile
                         width: 290px
+                    &::after
+                        content: "Upload"
+                        position: absolute
+                        width: 130px
+                        height: 56px
+                        top: 0
+                        right: 0
+                        border: 2px solid $primary
+                        border-radius: 4px
+                        font-family: $sourcesans
+                        font-weight: 600
+                        font-size: 20px
+                        color: $primary
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        cursor: pointer
+                        +tablet
+                            width: 35%
+                        +mobile
+                            content: ""
+                            width: 56px
+                            background-image: url(../../static/registration/upload.svg)
+                            background-repeat: no-repeat
+                            background-position: center
+
 
 
         .sumbit
