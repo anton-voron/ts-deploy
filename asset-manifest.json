@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ts-deploy/static/css/main.be55b6c1.chunk.css",
-    "main.js": "/ts-deploy/static/js/main.d61df7c8.chunk.js",
-    "main.js.map": "/ts-deploy/static/js/main.d61df7c8.chunk.js.map",
+    "main.css": "/ts-deploy/static/css/main.6dcf2a76.chunk.css",
+    "main.js": "/ts-deploy/static/js/main.a67ab2f2.chunk.js",
+    "main.js.map": "/ts-deploy/static/js/main.a67ab2f2.chunk.js.map",
     "runtime-main.js": "/ts-deploy/static/js/runtime-main.b90f754d.js",
     "runtime-main.js.map": "/ts-deploy/static/js/runtime-main.b90f754d.js.map",
     "static/js/2.852323da.chunk.js": "/ts-deploy/static/js/2.852323da.chunk.js",
     "static/js/2.852323da.chunk.js.map": "/ts-deploy/static/js/2.852323da.chunk.js.map",
     "index.html": "/ts-deploy/index.html",
-    "precache-manifest.1b31ee4f50f870dfb71a03e81b1852c8.js": "/ts-deploy/precache-manifest.1b31ee4f50f870dfb71a03e81b1852c8.js",
+    "precache-manifest.aa2571aa9757215d530fb86d18bba068.js": "/ts-deploy/precache-manifest.aa2571aa9757215d530fb86d18bba068.js",
     "service-worker.js": "/ts-deploy/service-worker.js",
-    "static/css/main.be55b6c1.chunk.css.map": "/ts-deploy/static/css/main.be55b6c1.chunk.css.map",
-    "static/media/Section1.sass": "/ts-deploy/static/media/bg-1.a5e64440.jpg",
-    "static/media/Section4.sass": "/ts-deploy/static/media/bg-2.7f1bc2b0.jpg",
+    "static/css/main.6dcf2a76.chunk.css.map": "/ts-deploy/static/css/main.6dcf2a76.chunk.css.map",
+    "static/media/Section1.sass": "/ts-deploy/static/media/bg-1.eddbda32.jpg",
+    "static/media/Section4.sass": "/ts-deploy/static/media/bg-2.88deb610.jpg",
     "static/media/cellphone.svg": "/ts-deploy/static/media/cellphone.8ade336b.svg",
     "static/media/css.svg": "/ts-deploy/static/media/css.93c522d7.svg",
     "static/media/facebook.svg": "/ts-deploy/static/media/facebook.f74ab617.svg",
@@ -29,12 +29,13 @@
     "static/media/phone.svg": "/ts-deploy/static/media/phone.a818fce6.svg",
     "static/media/pinterest.svg": "/ts-deploy/static/media/pinterest.7a05b639.svg",
     "static/media/sign-out.svg": "/ts-deploy/static/media/sign-out.c3b148c5.svg",
-    "static/media/twitter.svg": "/ts-deploy/static/media/twitter.3cde90c0.svg"
+    "static/media/twitter.svg": "/ts-deploy/static/media/twitter.3cde90c0.svg",
+    "static/media/Registration.sass": "/ts-deploy/static/media/upload.e331f32d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b90f754d.js",
     "static/js/2.852323da.chunk.js",
-    "static/css/main.be55b6c1.chunk.css",
-    "static/js/main.d61df7c8.chunk.js"
+    "static/css/main.6dcf2a76.chunk.css",
+    "static/js/main.a67ab2f2.chunk.js"
   ]
 }
