@@ -51,16 +51,11 @@ export default class RegistrationAPI implements IRegistrationAPI{
                 alert("You have successfully passed the registration")
                 localStorage.setItem('user_id', data.user_id)
             } else {
-                const fails = data.fails
                 alert(data.message)
-                // if(fails) {
-                //     const key = Object.values(fails)
-                //     alert(key.toString())
-                // }
             }
         })
         .catch(error => {
-            console.log('Damn')
+            console.log(error)
         })
     }
 
