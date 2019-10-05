@@ -142,8 +142,6 @@ export default class Store {
             if (user) {
                 this.currentUser = user
 
-            } else {
-                console.log(`there is no user with id: ${id}`)
             }
         })
     }

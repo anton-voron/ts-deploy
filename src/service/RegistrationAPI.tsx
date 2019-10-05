@@ -1,3 +1,5 @@
+import { object } from "prop-types"
+
 export interface IRegistrationAPI {
     readonly _token: string;
     readonly _usersPost: string;
@@ -49,12 +51,16 @@ export default class RegistrationAPI implements IRegistrationAPI{
                 alert("You have successfully passed the registration")
                 localStorage.setItem('user_id', data.user_id)
             } else {
-                alert("Failed registration, please enter valid data")
-                throw new Error(`Error bacause of ${data}`)
+                const fails = data.fails
+                alert(data.message)
+                // if(fails) {
+                //     const key = Object.values(fails)
+                //     alert(key.toString())
+                // }
             }
         })
         .catch(error => {
-            console.log(error)
+            console.log('Damn')
         })
     }
 
@@ -64,8 +70,6 @@ export default class RegistrationAPI implements IRegistrationAPI{
             if(data.success) {
                 console.log(data.users)
                 return data.users
-            } else {
-                throw new Error(`Invalid request`)
             }
         })
         .catch(error => console.log(error))
