@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ts-deploy/static/css/main.6dcf2a76.chunk.css",
-    "main.js": "/ts-deploy/static/js/main.a67ab2f2.chunk.js",
-    "main.js.map": "/ts-deploy/static/js/main.a67ab2f2.chunk.js.map",
+    "main.js": "/ts-deploy/static/js/main.fc279e53.chunk.js",
+    "main.js.map": "/ts-deploy/static/js/main.fc279e53.chunk.js.map",
     "runtime-main.js": "/ts-deploy/static/js/runtime-main.b90f754d.js",
     "runtime-main.js.map": "/ts-deploy/static/js/runtime-main.b90f754d.js.map",
     "static/js/2.852323da.chunk.js": "/ts-deploy/static/js/2.852323da.chunk.js",
     "static/js/2.852323da.chunk.js.map": "/ts-deploy/static/js/2.852323da.chunk.js.map",
     "index.html": "/ts-deploy/index.html",
-    "precache-manifest.aa2571aa9757215d530fb86d18bba068.js": "/ts-deploy/precache-manifest.aa2571aa9757215d530fb86d18bba068.js",
+    "precache-manifest.275505ffd5489e87bf6d3e8829daad3e.js": "/ts-deploy/precache-manifest.275505ffd5489e87bf6d3e8829daad3e.js",
     "service-worker.js": "/ts-deploy/service-worker.js",
     "static/css/main.6dcf2a76.chunk.css.map": "/ts-deploy/static/css/main.6dcf2a76.chunk.css.map",
     "static/media/Section1.sass": "/ts-deploy/static/media/bg-1.eddbda32.jpg",
@@ -36,6 +36,6 @@
     "static/js/runtime-main.b90f754d.js",
     "static/js/2.852323da.chunk.js",
     "static/css/main.6dcf2a76.chunk.css",
-    "static/js/main.a67ab2f2.chunk.js"
+    "static/js/main.fc279e53.chunk.js"
   ]
 }
